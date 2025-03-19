@@ -11,6 +11,8 @@ body {
     margin: 0;
     padding: 1%;
     background-color: #2b2b2b;
+    border-radius: 8px;
+    border: 0.25px solid white;
 }
 
 .menu ul li {
@@ -19,8 +21,6 @@ body {
     background-color: #3c3c3c;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-}
-
-.menu ul li .right {
-    text-align: right; /* Maybe */
+    border-radius: 8px;
+    border: 0.25px solid white;
 }
