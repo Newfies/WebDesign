@@ -1,0 +1,14 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    background-color: #1a1a1a;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0.55%;
+    background-color: #2e2e2e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
