@@ -9,17 +9,14 @@ body {
 
 .menu {
     display: flex;
-    justify-content: space-between; /* This will space out the left and right items */
-    align-items: center; /* Vertically center the items */
-    padding: 10px; /* Optional, to add some spacing around the menu */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
     background-color: #2b2b2b;
 }
 
 .menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Makes the items in the <ul> stay on the same line */
 }
 
 .menu ul li {
