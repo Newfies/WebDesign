@@ -6,11 +6,18 @@ body {
     background-color: #1a1a1a
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between; /* This will space out the left and right items */
+    align-items: center; /* Vertically center the items */
+    padding: 10px; /* Optional, to add some spacing around the menu */
+    background-color: #2b2b2b;
+}
+
 .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 1%;
-    background-color: #2b2b2b;
+    padding: 0;
 }
 
 .menu ul li {
@@ -20,4 +27,12 @@ body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+}
+
+.menu .left {
+    display: flex;
+}
+
+.menu .right {
+    display: flex;
 }
