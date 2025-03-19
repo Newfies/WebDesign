@@ -23,4 +23,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     border-radius: 8px;
     border: 0.25px solid white;
+    transition: 0.2s ease-out;
+}
+
+.menu ul li:hover{
+    transition: 0.2s ease-in;
+    background-color: #4e4e4e;
 }
