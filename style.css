@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #1a1a1a
+    background-color: #1a1a1a;
+    margin: 0;
 }
 
 .menu {
@@ -18,10 +19,10 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Makes the items in the <ul> stay on the same line */
 }
 
 .menu ul li {
-    display: inline;
     padding: 0.55%;
     background-color: #3c3c3c;
     color: white;
@@ -29,10 +30,3 @@ body {
     font-size: large;
 }
 
-.menu .left {
-    display: flex;
-}
-
-.menu .right {
-    display: flex;
-}
